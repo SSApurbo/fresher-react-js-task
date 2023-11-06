@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+/* styles.css */
+.top-section {
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 20px;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 0;
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image-gallery li {
+  position: relative;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.image-gallery img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.image-gallery .big-image {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+.image-gallery img:hover {
+  filter: brightness(0.7);
+  transition: filter 0.2s;
+}
+.image-container {
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.first-image {
+  grid-row: span 2; /* Set rowSpan to 2 */
+  grid-column: span 2; /* Set colSpan to 2 */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.image-checkbox-label {
+  display: block;
+  position: relative;
+}
+.image-checkbox-input {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  opacity: 100;
+  cursor: pointer;
+}
+.delete-checked-images-button {
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  background: none;
+  float: Right;
+  padding: 20px;
+  color: rgb(202, 20, 20);
+}
+
+.delete-checked-images-button:hover {
+  text-decoration: underline;
+}
+.delete-message {
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 20px;
+  padding: 20px;
 }
