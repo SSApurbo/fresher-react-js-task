@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fresher-react-js-task/static/css/main.3bca6fdc.chunk.css",
-    "main.js": "/fresher-react-js-task/static/js/main.50a80ce4.chunk.js",
-    "main.js.map": "/fresher-react-js-task/static/js/main.50a80ce4.chunk.js.map",
+    "main.js": "/fresher-react-js-task/static/js/main.3fd35195.chunk.js",
+    "main.js.map": "/fresher-react-js-task/static/js/main.3fd35195.chunk.js.map",
     "runtime~main.js": "/fresher-react-js-task/static/js/runtime~main.c8882767.js",
     "runtime~main.js.map": "/fresher-react-js-task/static/js/runtime~main.c8882767.js.map",
     "static/js/2.81648295.chunk.js": "/fresher-react-js-task/static/js/2.81648295.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5a11cc32.chunk.js": "/fresher-react-js-task/static/js/3.5a11cc32.chunk.js",
     "static/js/3.5a11cc32.chunk.js.map": "/fresher-react-js-task/static/js/3.5a11cc32.chunk.js.map",
     "index.html": "/fresher-react-js-task/index.html",
-    "precache-manifest.e1660940d95e2db7a5ffd41df2f99efa.js": "/fresher-react-js-task/precache-manifest.e1660940d95e2db7a5ffd41df2f99efa.js",
+    "precache-manifest.b5f73096937f5296ba086ef003dbc78d.js": "/fresher-react-js-task/precache-manifest.b5f73096937f5296ba086ef003dbc78d.js",
     "service-worker.js": "/fresher-react-js-task/service-worker.js",
     "static/css/main.3bca6fdc.chunk.css.map": "/fresher-react-js-task/static/css/main.3bca6fdc.chunk.css.map"
   }
