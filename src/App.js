@@ -1,4 +1,4 @@
-import React, { useState, Component } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
@@ -76,7 +76,6 @@ const images = [
 function App() {
   const [imageOrder, setImageOrder] = useState(images.map((image) => image.id));
   const [checkedImages, setCheckedImages] = useState([]);
-  const [showDeleteMessage, setShowDeleteMessage] = useState(false);
 
   const handleChange = (id) => {
     const updatedOrder = imageOrder.map((imageId) =>
@@ -104,7 +103,6 @@ function App() {
     );
     setImageOrder(updatedOrder);
     setCheckedImages([]);
-    setShowDeleteMessage(false);
   };
   const isCheckboxesSelected = checkedImages.length > 0;
   const checkedImagesCount = checkedImages.length;
